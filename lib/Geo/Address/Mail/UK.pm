@@ -9,7 +9,7 @@ use Moose::Util::TypeConstraints;
 
 extends 'Geo::Address::Mail';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 subtype 'Geo::Address::Mail::UKPostalCode',
     => as 'Str',
@@ -80,12 +80,8 @@ Andrew Nelson, C<< <anelson at cpan.org> >>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2011 Andrew Nelson.
+This software is copyright (c) 2011 by Infinity Interactive, Inc..
 
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
-
-See http://dev.perl.org/licenses/ for more information.
+This is free software; you can redistribute it and/or modify it under the same terms as the Perl 5 programming language system itself.
 
 =cut
